@@ -107,6 +107,7 @@ RUN \
 	certbot-dns-rfc2136 \
 	certbot-dns-route53 \
 	certbot-dns-transip \
+	git+https://github.com/tengattack/certbot-dns-dnspod.git \
 	certbot-plugin-gandi \
 	cryptography \
 	requests && \
